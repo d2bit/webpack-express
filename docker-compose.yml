@@ -1,0 +1,10 @@
+version: '2'
+services:
+  app:
+    image: node
+    ports:
+      - '3000:3000'
+    working_dir: /app
+    volumes:
+      - .:/app
+    command: ['npm', 'start']
