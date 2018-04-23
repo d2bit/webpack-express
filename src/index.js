@@ -1,5 +1,6 @@
 import http from 'http'
 import app from './server'
+import '../config/dotenv'
 
 const DEFAULT_PORT = 3000
 
