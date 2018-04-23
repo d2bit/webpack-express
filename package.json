@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "webpack --mode=development --colors --progress",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "keywords": [],
   "author": "d2bit",
@@ -22,6 +22,7 @@
     "babel-preset-stage-0": "^6.24.1",
     "dotenv": "^5.0.1",
     "dotenv-expand": "^4.2.0",
+    "jest": "^22.4.3",
     "source-map-support": "^0.5.4",
     "start-server-webpack-plugin": "^2.2.5",
     "webpack": "^4.6.0",
